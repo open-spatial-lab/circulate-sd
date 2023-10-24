@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Obstructions",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "Description": "Fire hydrant blocking sidewalk" }, "geometry": { "type": "Point", "coordinates": [ 6252008.925976634025574, 1943750.97468689084053, 0.0 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Jaywalking",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "Shape_Length": 59.925760295459625 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251289.777808636426926, 1943347.555546224117279, 0.0 ], [ 6251233.777920633554459, 1943326.222255557775497, 0.0 ] ] ] } }
-]
-}

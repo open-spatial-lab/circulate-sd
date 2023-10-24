@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Broken_Sidewalk",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Shape_Length": 37.239187749732473 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251104.142353132367134, 1943660.089041888713837, 0.0 ], [ 6251139.413279965519905, 1943672.03554031252861, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Shape_Length": 31.784318398815362 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251181.215361714363098, 1943598.6032724827528, 0.0 ], [ 6251186.676636889576912, 1943567.291655316948891, 0.0 ] ] ] } }
+]
+}

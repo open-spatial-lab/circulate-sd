@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "BrokenSidewalks",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "Shape_Length": 149.91978422332946 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251167.436845973134041, 1939768.701483473181725, 0.0 ], [ 6251290.725641384720802, 1939853.99986931681633, 0.0 ] ] ] } }
-]
-}

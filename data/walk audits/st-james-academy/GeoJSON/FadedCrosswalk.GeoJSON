@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "FadedCrosswalk",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Shape_Length": 0.00030822550807541136, "Shape_Area": 4.6332135472415994e-09 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -117.264386367999975, 32.985386624000057, 0.0 ], [ -117.264307100999986, 32.985465385000055, 0.0 ], [ -117.264272637999966, 32.985439934000055, 0.0 ], [ -117.264354381999965, 32.985361745000034, 0.0 ], [ -117.264386367999975, 32.985386624000057, 0.0 ] ] ] ] } }
+]
+}

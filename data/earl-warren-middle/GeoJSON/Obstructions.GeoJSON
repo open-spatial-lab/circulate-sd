@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Obstructions",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1 }, "geometry": { "type": "Point", "coordinates": [ 6251119.111155226826668, 1943671.11100147664547, 0.0 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 2 }, "geometry": { "type": "Point", "coordinates": [ 6250790.222377300262451, 1943547.555474311113358, 0.0 ] } }
-]
-}

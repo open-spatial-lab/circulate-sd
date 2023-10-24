@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Sidewalk_Buffer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Shape_Length": 481.32763181812174 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6250686.418451055884361, 1943506.488955393433571, 0.0 ], [ 6251139.413279965519905, 1943669.191057816147804, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Shape_Length": 226.44068237187534 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251111.674162223935127, 1943738.777532815933228, 0.0 ], [ 6251264.955679804086685, 1943779.191493973135948, 0.0 ], [ 6251332.312172383069992, 1943787.929665476083755, 0.0 ] ] ] } }
+]
+}

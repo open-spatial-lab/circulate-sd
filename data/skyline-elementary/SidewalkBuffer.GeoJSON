@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "SidewalkBuffer",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2230" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "Description": "City installed railing adjacent to curb", "Shape_Length": 23.6771159461161 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 6251988.779035300016403, 1943746.889393225312233, 0.0 ], [ 6252012.299001380801201, 1943744.165973484516144, 0.0 ] ] ] } }
-]
-}
