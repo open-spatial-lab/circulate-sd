@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circulate San Diego View 2</title>
+  <script
+    src="https://www.unpkg.com/@open-spatial-lab/full-bundle"
+    async
+    type="module"
+  ></script>
+</head>
+<body>
+  <div style="height:auto; width:100%">
+    <div style="padding-bottom:30px;">
+         <osl-eq-grid breakpoint="md">
+           <div>
+             <osl-eq-grid breakpoint="md">
+               <osl-select-control
+                 data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0"]'
+                 option="month"
+                 optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b25bb0315ac0008d98572"
+                 optionsDataValueColumn="month"
+                 title="311 Complaints Month"
+                 initialValue="*"
+                 multipleSelect
+               ></osl-select-control>
+               <osl-select-control
+                 data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0"]'
+                 option="year"
+                 optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b259a0315ac0008d98571"
+                 optionsDataValueColumn="year"
+                 title="311 Complaints Year"
+                 initialValue="2023"
+                 multipleSelect
+               ></osl-select-control>
+             </osl-eq-grid>
+           </div>
+           <div>
+             <osl-select-control
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/657b5a101c31230008e5d1ea"]'
+               option="service"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657a34763429c300089e1592"
+               optionsDataValueColumn="service_name"
+               title="311 Complaints Type"
+               initialValue='["Bicycle-Related Issue","Parking Violation","Sidewalk Repair Issue","Street Light Maintenance","Traffic Engineering","Vegetation Encroachment"]'
+               showAny
+             ></osl-select-control>
+             <osl-select-control
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef"]'
+               option="servicedetail"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b5a101c31230008e5d1ea"
+               optionsDataValueColumn="service_name_detail"
+               title="Detailed 311 Complaints Type"
+               initialValue="*"
+               showAny
+             ></osl-select-control>
+             
+           </div>
+           <div>
+             <osl-chips
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0","https://dcoszmf9no5hj.cloudfront.net/data-query/657a2f5c898e0a0008358b11"]'
+               option="zip"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b62b86628570008f282f2"
+               optionsDataValueColumn="ZIP_CODE"
+               title="Zip Code"
+               initialValue="*"
+               showAny
+               multipleSelect
+             ></osl-chips>
+             <osl-eq-grid breakpoint="md">
+               <div>
+                 <osl-select-control
+                   data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0","https://dcoszmf9no5hj.cloudfront.net/data-query/657a2f5c898e0a0008358b11"]'
+                   option="district"
+                   optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b65816628570008f282f3"
+                   optionsDataValueColumn="district"
+                   title="District"
+                   initialValue="*"
+                   showAny
+                 ></osl-select-control>
+               </div>
+               <div>
+                 <osl-select-control
+                   data='["https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef","https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0","https://dcoszmf9no5hj.cloudfront.net/data-query/657a2f5c898e0a0008358b11"]'
+                   option="cpcode"
+                   optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b65c96628570008f282f4"
+                   optionsDataValueColumn="cpcode"
+                   title="CP Code"
+                   initialValue="*"
+                   showAny
+                 ></osl-select-control>
+               </div>
+             </osl-eq-grid>
+           </div>
+         </osl-eq-grid>
+       </div>
+       &nbsp;
+   
+   <hr style="margin:2rem 0 1rem 0"/>
+     
+       &nbsp;
+       <div>
+         <osl-eq-grid breakpoint="xl">
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Bicycle-Related Issues"
+             property="Bicycle-Related Issue"
+           ></osl-stat>
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Parking Violations"
+             property="Parking Violation"
+           ></osl-stat>
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Sidewalk Repair Issues"
+             property="Sidewalk Repair Issue"
+           ></osl-stat>
+         </osl-eq-grid>
+       </div>
+       &nbsp;
+       <div>
+         <osl-eq-grid breakpoint="xl">
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Street Light Maintenance"
+             property="Street Light Maintenance"
+           ></osl-stat>
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Traffic Engineering"
+             property="Traffic Engineering"
+           ></osl-stat>
+           <osl-stat
+             data='https://dcoszmf9no5hj.cloudfront.net/data-query/657b69306628570008f282f6'
+             title="Vegetation Encroachment"
+             property="Vegetation Encroachment"
+           ></osl-stat>
+         </osl-eq-grid>
+       </div>
+       &nbsp;
+     
+   <br/><br/>
+   <osl-eq-grid breakpoint="xl" style="height:80vh;">
+     <div style="height:100%;width:100%;overflow-y:auto;">
+       <div style="height:400vh;width:100%;">
+         <osl-plot
+           colorLegend="true" 
+           data="https://dcoszmf9no5hj.cloudfront.net/data-query/653bf6dbc5ea2b0008cd63c0"
+           marginRight="150"
+           >
+           <osl-line 
+           x="date"
+           y="count"
+           fy="service_name"
+           colorScheme="accent"
+           direction="horizontal"
+           ></osl-line>
+         </osl-plot>
+       </div>
+     </div>
+     <div style="height:100%;width:100%;">
+       <osl-glmap 
+         mapGroup="1"
+         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+         legendPosition="top-left" 
+         showNavigation='true'
+         center="[-117.2,32.7]"
+         zoom="11"
+         >
+           <osl-map-layer
+             layer="circle"
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef"
+             geoColumn="geometry"
+             type="categorical"
+             staticColor="[255,0,0]"
+             geoType="WKB"
+             legendtitle="311 Complaints by Type"
+             visible="true"
+             colorscheme="d3-turbo"
+             staticRadius="30"
+             dataColumn="service_name"
+             pointRadiusMaxPixels="10"
+             pointRadiusMinPixels="2"
+           >
+           </osl-map-layer>
+         <osl-map-layer
+             layer="circle"
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/657a2f5c898e0a0008358b11"
+             geoColumn="geometry"
+             type="categorical"
+             staticColor="[255,0,0]"
+             geoType="WKB"
+             legendtitle="Walk Audits"
+             visible="true"
+             colorscheme="d3-sinebow"
+             staticRadius="30"
+             dataColumn="site"
+             pointRadiusMaxPixels="10"
+             pointRadiusMinPixels="2"
+           >
+           </osl-map-layer>
+         </osl-glmap>
+       </div>
+     </osl-eq-grid>
+   </div>
+   <br/>
+   <hr/>
+   <br/>
+   <h3>311 Complaints table</h3>
+   <osl-data-table
+     pagination="true"
+     data="https://dcoszmf9no5hj.cloudfront.net/data-query/653be6b05ff01600085e5eef"
+     columns='["service_name", "service_name_detail", "public_description", "street_address", "date", "status"]'
+   ></osl-data-table>
+     <br/>
+     <hr/>
+     <br/>
+     <h3>Walk Audits Table</h3>
+   <osl-data-table
+     pagination="true"
+     data="https://dcoszmf9no5hj.cloudfront.net/data-query/657a2f5c898e0a0008358b11"
+     columns='["Name", "site", "Description"]'
+   ></osl-data-table>
+     
+</body>
+</html>

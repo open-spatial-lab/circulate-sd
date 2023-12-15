@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circulate San Diego View 3</title>
+  <script
+    src="https://www.unpkg.com/@open-spatial-lab/full-bundle"
+    async
+    type="module"
+  ></script>
+</head>
+<body>
+  <div style="height:auto; width:100%">
+    <div style="padding-bottom:30px;">
+         <osl-eq-grid breakpoint="md">
+           <div>
+             <osl-eq-grid breakpoint="md">
+               <osl-select-control
+                 data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+                 option="month"
+                 optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b25bb0315ac0008d98572"
+                 optionsDataValueColumn="month"
+                 title="311 Complaints Month"
+                 initialValue="*"
+                 multipleSelect
+               ></osl-select-control>
+               <osl-select-control
+                 data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+                 option="year"
+                 optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b259a0315ac0008d98571"
+                 optionsDataValueColumn="year"
+                 title="311 Complaints Year"
+                 initialValue="2023"
+                 multipleSelect
+               ></osl-select-control>
+             </osl-eq-grid>
+           </div>
+           <div>
+             <osl-select-control
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1","https://dcoszmf9no5hj.cloudfront.net/data-query/657a34763429c300089e1592"]'
+               option="service"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657a34763429c300089e1592"
+               optionsDataValueColumn="service_name"
+               title="311 Complaints Type"
+               initialValue='["Bicycle-Related Issue","Parking Violation","Sidewalk Repair Issue","Street Light Maintenance","Traffic Engineering","Vegetation Encroachment"]'
+               showAny
+             ></osl-select-control>
+             <osl-select-control
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+               option="servicedetail"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b5a101c31230008e5d1ea"
+               optionsDataValueColumn="service_name_detail"
+               title="Detailed 311 Complaints Type"
+               initialValue="*"
+               showAny
+             ></osl-select-control>
+             
+           </div>
+           <div>
+             <osl-chips
+               data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+               option="zip"
+               optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b62b86628570008f282f2"
+               optionsDataValueColumn="ZIP_CODE"
+               title="Zip Code"
+               initialValue="*"
+               showAny
+               multipleSelect
+             ></osl-chips>
+             <osl-eq-grid breakpoint="md">
+               <div>
+                 <osl-select-control
+                   data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+                   option="district"
+                   optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b65816628570008f282f3"
+                   optionsDataValueColumn="district"
+                   title="District"
+                   initialValue="*"
+                   showAny
+                 ></osl-select-control>
+               </div>
+               <div>
+                 <osl-select-control
+                   data='["https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194","https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"]'
+                   option="cpcode"
+                   optionsData="https://dcoszmf9no5hj.cloudfront.net/data-query/657b65c96628570008f282f4"
+                   optionsDataValueColumn="cpcode"
+                   title="CP Code"
+                   initialValue="*"
+                   showAny
+                 ></osl-select-control>
+               </div>
+             </osl-eq-grid>
+           </div>
+         </osl-eq-grid>
+       </div>
+       &nbsp;  
+   <br/><br/>
+   <osl-tabs>  
+     <div style="position:relative;width:100%;" data-tab="Census Tracts">
+       <div style="position:relative;width:100%;display:flex;flex-direcion:row;">
+         <div style="display:inline;width:100%;height:40vh">
+           <osl-glmap 
+             center="[-117.2,32.7]"
+             zoom="11"
+             mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+             legendPosition="top-left" 
+             showNavigation='true'
+             mapGroup="1"
+             >
+             <osl-map-layer 
+               legendTitle="Walk Audit Counts" 
+               visible='true' 
+               geoType="WKB" 
+               geoColumn="geometry" 
+               dataColumn="walk audit count"
+               type="continuous" 
+               bins='5' 
+               colorScheme="RdPu" 
+               filled='true' 
+               layer="polygon" 
+               beforeId="water" 
+               method="QNT" 
+               geoId="FIPS" 
+               stroked='true' 
+               data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194"
+               >
+             </osl-map-layer>
+           </osl-glmap>
+         </div>
+         <div style="display:inline;width:100%;height:40vh">
+           <osl-glmap 
+             center="[-117.2,32.7]"
+             zoom="11"
+             mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+             legendPosition="top-left" 
+             showNavigation='true'
+             mapGroup="1"
+             >
+             <osl-map-layer 
+               legendTitle="311 Counts" 
+               visible='true' 
+               geoType="WKB" 
+               geoColumn="geometry" 
+               dataColumn="311 count"
+               type="continuous" 
+               bins='5' 
+               colorScheme="d3-magma" 
+               filled='true' 
+               layer="polygon" 
+               beforeId="water" 
+               method="QNT" 
+               geoId="FIPS" 
+               stroked='true' 
+               data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194"
+               >
+             </osl-map-layer>
+           </osl-glmap>
+         </div>
+       </div>
+       <div style="position:relative;width:100%;display:flex;flex-direcion:row;">
+       <div style="display:inline;width:100%;height:40vh">
+       <osl-glmap 
+         center="[-117.2,32.7]"
+         zoom="11"
+         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+         legendPosition="top-left" 
+         showNavigation='true'
+         mapGroup="1"
+         >
+           <osl-map-layer 
+             legendTitle="Population" 
+             visible='true' 
+             geoType="WKB" 
+             geoColumn="geometry" 
+             dataColumn="Total Population"
+             type="continuous" 
+             bins='5' 
+             colorScheme="RdPu" 
+             filled='true' 
+             layer="polygon" 
+             beforeId="water" 
+             method="QNT" 
+             geoId="FIPS" 
+             stroked='true' 
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194"
+             >
+           </osl-map-layer>
+         </osl-glmap>
+       </div>
+       <div style="display:inline;width:100%;height:40vh">
+         <osl-glmap 
+           center="[-117.2,32.7]"
+           zoom="11"
+           mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+           legendPosition="top-left" 
+           showNavigation='true'
+           mapGroup="1"
+           >
+           <osl-map-layer 
+             legendTitle="Median Household Income" 
+             visible='true' 
+             geoType="WKB" 
+             geoColumn="geometry" 
+             dataColumn="Median Household Income"
+             type="continuous" 
+             bins='5' 
+             colorScheme="d3-viridis" 
+             filled='true' 
+             layer="polygon" 
+             beforeId="water" 
+             method="QNT" 
+             geoId="FIPS" 
+             stroked='true' 
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbb22b1dd2900083e1194"
+             >
+             </osl-map-layer>
+         </osl-glmap>
+       </div>
+     </div>
+   </div>
+     <div style="position:relative;width:100%;" data-tab="Zip Codes">
+       <div style="position:relative;width:100%;display:flex;flex-direcion:row;">
+         <div style="display:inline;width:100%;height:40vh">
+           <osl-glmap 
+             center="[-117.2,32.7]"
+             zoom="11"
+             mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+             legendPosition="top-left" 
+             showNavigation='true'
+             mapGroup="2"
+             >
+             <osl-map-layer 
+               legendTitle="Walk Audit Counts" 
+               visible='true' 
+               geoType="WKB" 
+               geoColumn="geometry" 
+               dataColumn="walk audit count"
+               type="continuous" 
+               bins='5' 
+               colorScheme="RdPu" 
+               filled='true' 
+               layer="polygon" 
+               beforeId="water" 
+               method="QNT" 
+               geoId="zipcode" 
+               stroked='true' 
+               data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"
+               >
+             </osl-map-layer>
+           </osl-glmap>
+         </div>
+         <div style="display:inline;width:100%;height:40vh">
+           <osl-glmap 
+             center="[-117.2,32.7]"
+             zoom="11"
+             mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+             legendPosition="top-left" 
+             showNavigation='true'
+             mapGroup="2"
+             >
+             <osl-map-layer 
+               legendTitle="311 Counts" 
+               visible='true' 
+               geoType="WKB" 
+               geoColumn="geometry" 
+               dataColumn="311 count"
+               type="continuous" 
+               bins='5' 
+               colorScheme="d3-magma" 
+               filled='true' 
+               layer="polygon" 
+               beforeId="water" 
+               method="QNT" 
+               geoId="zipcode" 
+               stroked='true' 
+               data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"
+               >
+             </osl-map-layer>
+           </osl-glmap>
+         </div>
+       </div>
+       <div style="position:relative;width:100%;display:flex;flex-direcion:row;">
+       <div style="display:inline;width:100%;height:40vh">
+       <osl-glmap 
+         center="[-117.2,32.7]"
+         zoom="11"
+         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+         legendPosition="top-left" 
+         showNavigation='true'
+         mapGroup="2"
+         >
+           <osl-map-layer 
+             legendTitle="Population" 
+             visible='true' 
+             geoType="WKB" 
+             geoColumn="geometry" 
+             dataColumn="Total Population"
+             type="continuous" 
+             bins='5' 
+             colorScheme="RdPu" 
+             filled='true' 
+             layer="polygon" 
+             beforeId="water" 
+             method="QNT" 
+             geoId="zipcode" 
+             stroked='true' 
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"
+             >
+           </osl-map-layer>
+         </osl-glmap>
+       </div>
+       <div style="display:inline;width:100%;height:40vh">
+         <osl-glmap 
+           center="[-117.2,32.7]"
+           zoom="11"
+           mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" 
+           legendPosition="top-left" 
+           showNavigation='true'
+           mapGroup="2"
+           >
+           <osl-map-layer 
+             legendTitle="Median Household Income" 
+             visible='true' 
+             geoType="WKB" 
+             geoColumn="geometry" 
+             dataColumn="Median Household Income"
+             type="continuous" 
+             bins='5' 
+             colorScheme="d3-viridis" 
+             filled='true' 
+             layer="polygon" 
+             beforeId="water" 
+             method="QNT" 
+             geoId="zipcode" 
+             stroked='true' 
+             data="https://dcoszmf9no5hj.cloudfront.net/data-query/657cbfdc4e9cef0008f1bfe1"
+             >
+             </osl-map-layer>
+         </osl-glmap>
+       </div>
+     </div>
+   </div>
+   </osl-tabs>
+   </div>
+     
+</body>
+</html>
