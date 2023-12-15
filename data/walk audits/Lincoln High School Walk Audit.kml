@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lincoln High School Walk Audit</name>
+    <description>Walk Audit from 4.21.23</description>
+    <Style id="icon-1532-097138-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1532-097138-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1532-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1574-9C27B0-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1574-9C27B0-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1574-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1574-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1574-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1682-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1682-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1682-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1682-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1682-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1682-FBC02D-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1682-FBC02D-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1682-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1682-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1682-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-7CB342-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-7CB342-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-7CB342-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1720-7CB342-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1720-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF5252-7200-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>7.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF5252-7200-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>10.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF5252-7200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-7200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-7200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF5252-7200-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>7.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF5252-7200-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>10.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF5252-7200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-7200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-7200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-CE93D8-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-CE93D8-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-CE93D8-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Route</name>
+      <Placemark>
+        <name>Walk Audit Route</name>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.0894475,32.7040413,0
+                -117.0883024,32.7040174,0
+                -117.0880167,32.7039984,0
+                -117.0878075,32.7039795,0
+                -117.0875635,32.7039736,0
+                -117.0873422,32.7039677,0
+                -117.0867963,32.7039745,0
+                -117.0865576,32.7039857,0
+                -117.0863839,32.7039914,0
+                -117.0861969,32.7040151,0
+                -117.0859482,32.70408,0
+                -117.0851181,32.7044096,0
+                -117.0848646,32.704484,0
+                -117.0844624,32.7046685,0
+                -117.0830033,32.7053422,0
+                -117.0826064,32.7055679,0
+                -117.0827163,32.7057101,0
+                -117.0831347,32.7054867,0
+                -117.0840166,32.7050828,0
+                -117.0849039,32.7047038,0
+                -117.0859727,32.704284,0
+                -117.0860901,32.704232,0
+                -117.0862584,32.7041948,0
+                -117.0864274,32.7041801,0
+                -117.0865963,32.7041745,0
+                -117.0868055,32.7041812,0
+                -117.0871831,32.7041745,0
+                -117.0875659,32.7041903,0
+                -117.0882915,32.7042331,0
+                -117.0894488,32.7042816,0
+                -117.0894475,32.7040413,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lincoln Senior High School</name>
+        <styleUrl>#icon-1682-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.089479,32.7034237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Rita's Catholic School]]></name>
+        <styleUrl>#icon-1682-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0833742,32.7049101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Observations</name>
+      <Placemark>
+        <name>No Shade Bus Stop</name>
+        <styleUrl>#icon-1532-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0894906,32.7039904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Shade Bus Stop</name>
+        <styleUrl>#icon-1532-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0897987,32.7043387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Shade Bus Stop</name>
+        <styleUrl>#icon-1532-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0843788,32.704622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cracked Sidewalk</name>
+        <description>Uneven and cracked sidewalk with many potholes create tripping hazards</description>
+        <styleUrl>#line-FF5252-7200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.0867408,32.7041807,0
+            -117.0864377,32.7041818,0
+            -117.0861346,32.7042145,0
+            -117.0851248,32.704623,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cracked Sidewalk</name>
+        <styleUrl>#line-FF5252-7200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.0841053,32.7048284,0
+            -117.0830673,32.7053091,0
+            -117.0827616,32.7054761,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Faded School Crosswalks</name>
+        <description>Faded yellow crosswalks near schools makes it dangerous for students who walk or commute to school</description>
+        <styleUrl>#icon-1682-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0894503,32.7041683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded School Crosswalks</name>
+        <description>Faded yellow crosswalks near schools makes it dangerous for students who walk or commute to school</description>
+        <styleUrl>#icon-1682-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0882369,32.7042252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded School Crosswalks</name>
+        <description>Euclid is a very busy intersection with long wait times and approximately 25 seconds to cross the street. It has parallel yellow crosswalks which are very faded. Cars travel over 25 mph regardless of school zone</description>
+        <styleUrl>#icon-1682-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0850993,32.7045376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded School Crosswalks</name>
+        <description>Faded yellow crosswalks near a catholic school with smaller children. No posted sign for school zone found</description>
+        <styleUrl>#icon-1682-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0826571,32.7056337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Empty Lot</name>
+        <description>Confusing public space for pedestrians. Sidewalk and driving lane have little distinction </description>
+        <styleUrl>#icon-1574-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0853746,32.7041879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Shade</name>
+        <description>Lack of trees make it difficult to walk on really hot days as experienced during the walk audit</description>
+        <styleUrl>#icon-1720-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0861785,32.7042486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Shade</name>
+        <styleUrl>#icon-1720-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0872308,32.7039431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

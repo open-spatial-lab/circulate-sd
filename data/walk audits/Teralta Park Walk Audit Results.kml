@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Teralta Park Walk Audit Results</name>
+    <description/>
+    <Style id="icon-1541-F57C00-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1541-F57C00-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1541-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1625-0F9D58-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1625-0F9D58-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1625-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1625-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1625-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1731-FF5252-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1731-FF5252-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1731-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1731-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1731-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1886-0F9D58-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1886-0F9D58-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1886-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1886-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1886-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5650-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5650-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0F9D58-5844-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0F9D58-5844-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-6813-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>6.813</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-795548-6813-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>10.2195</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-795548-6813">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-6813-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-6813-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F57C00-7006-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>7.006</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F57C00-7006-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>10.509</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F57C00-7006">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F57C00-7006-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F57C00-7006-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF5252-8556-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>8.556</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF5252-8556-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>12.834</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF5252-8556">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-8556-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-8556-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-097138-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-097138-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-097138-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-9C27B0-5201-125-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>5.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7db0279c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-9C27B0-5201-125-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>7.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7db0279c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-9C27B0-5201-125">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-9C27B0-5201-125-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-9C27B0-5201-125-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Teralta Park</name>
+      <Placemark>
+        <name>Teralta Park</name>
+        <styleUrl>#poly-097138-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1093768,32.7531953,0
+                -117.1093876,32.7515666,0
+                -117.108245,32.7515621,0
+                -117.1082396,32.7531908,0
+                -117.1087894,32.753193,0
+                -117.1093768,32.7531953,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Walking Route</name>
+      <Placemark>
+        <name>Walking Route</name>
+        <styleUrl>#line-000000-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1082812,32.753263,0
+            -117.1045422,32.7532428,0
+            -117.1026888,32.7532213,0
+            -117.1008488,32.7532089,0
+            -117.1008461,32.7551984,0
+            -117.1081953,32.7552435,0
+            -117.1082812,32.753263,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Observations</name>
+      <Placemark>
+        <name>Only one crosswalk, no vehicle stoppage</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1081923,32.7532425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drivers Speeding</name>
+        <description>Drivers Speeding</description>
+        <styleUrl>#line-0288D1-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1080725,32.753232,0
+            -117.1008453,32.7531631,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tree Cover, Wide Sidewalks</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1074639,32.753168,0
+            -117.1069543,32.7531635,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No Crosswalk</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1056096,32.7532593,0
+            -117.1056096,32.7531984,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wide Sidewalk</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1055922,32.7531263,0
+            -117.1044523,32.7531184,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Audible RRFB</name>
+        <description>Audible Pedestrian Signal</description>
+        <styleUrl>#icon-1625-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1044397,32.7532495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Ramps</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1040146,32.7532484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Ramp</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1034862,32.7532405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Ramp or Crosswalk</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1032019,32.7531627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Overgrown Path</name>
+        <description>Obstruction</description>
+        <styleUrl>#line-F57C00-7006</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1032528,32.7531074,0
+            -117.1035935,32.7531198,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cracked Sidewalks</name>
+        <description>Obstruction</description>
+        <styleUrl>#icon-1541-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -117.101382,32.753139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Speed Bump</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1010199,32.753671,0
+            -117.1010185,32.7536,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Speed Bump</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1010212,32.7534613,0
+            -117.1010212,32.7533801,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Speed Bump</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1010466,32.7533231,0
+            -117.1011298,32.7533237,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Speed Bump</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1012599,32.7533259,0
+            -117.1013565,32.7533259,0
+            -117.1013538,32.7535571,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Witnessed Jaywalking</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1008687,32.7539092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Short Crossing Time</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1019283,32.7532018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Ramp</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1007734,32.7550003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Audible Signal</name>
+        <description>Audible Pedestrian Signal</description>
+        <styleUrl>#icon-1625-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1009344,32.7550082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Short Crossing Time</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.100811,32.7550184,0
+            -117.1009049,32.7550184,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Long Light, hard to catch bus</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1018865,32.7551469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Ramp</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#icon-1731-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1039585,32.7552609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1028065,32.7550511,0
+            -117.1020394,32.7550443,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.103858,32.755059,0
+            -117.1032035,32.7550556,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1020743,32.7552439,0
+            -117.1028065,32.7552451,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.103111,32.7552507,0
+            -117.1038741,32.7552552,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Short Crossing Signal</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1040833,32.7550116,0
+            -117.1039585,32.7550071,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Uneven Sidewalk</name>
+        <description>Obstruction</description>
+        <styleUrl>#icon-1541-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1046988,32.7550132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drivers Speeding</name>
+        <description>Drivers Speeding</description>
+        <styleUrl>#line-0288D1-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1080583,32.7551779,0
+            -117.104153,32.7551519,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1049107,32.755064,0
+            -117.104145,32.7550606,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1041745,32.7552591,0
+            -117.1049295,32.7552636,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1017579,32.7550378,0
+            -117.1010189,32.7550445,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1015192,32.7552543,0
+            -117.1017646,32.7552532,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No Crossing</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1029515,32.7552475,0
+            -117.1029528,32.7550344,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mural</name>
+        <description>Asset</description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1028804,32.7549035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded Crosswalk</name>
+        <description>Faded Crosswalk</description>
+        <styleUrl>#poly-9C27B0-5201-125</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1060891,32.7553042,0
+                -117.1060837,32.7550414,0
+                -117.1060421,32.755038,0
+                -117.1060488,32.7553042,0
+                -117.1060891,32.7553042,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Faded Crosswalk</name>
+        <description>Faded Crosswalk</description>
+        <styleUrl>#poly-9C27B0-5201-125</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1062151,32.7553392,0
+                -117.1062285,32.7553132,0
+                -117.1060824,32.7553121,0
+                -117.1060931,32.755338,0
+                -117.1062151,32.7553392,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Faded Crosswalk</name>
+        <description>Faded Crosswalk</description>
+        <styleUrl>#poly-9C27B0-5201-125</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1062473,32.7552985,0
+                -117.1062513,32.7550504,0
+                -117.1062165,32.7550437,0
+                -117.1062124,32.7553053,0
+                -117.1062473,32.7552985,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Faded Crosswalk</name>
+        <description>Faded Crosswalk</description>
+        <styleUrl>#poly-9C27B0-5201-125</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1062124,32.7550301,0
+                -117.1062124,32.7550031,0
+                -117.1061011,32.7550087,0
+                -117.1060783,32.7550312,0
+                -117.1062124,32.7550301,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>No Crosswalk</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.107189,32.7553011,0
+            -117.107193,32.7551218,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Faded Crosswalk</name>
+        <description>Faded Crosswalk</description>
+        <styleUrl>#poly-9C27B0-5201-125</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.1081318,32.7553394,0
+                -117.1081345,32.7550485,0
+                -117.1080849,32.7550518,0
+                -117.1080822,32.7553417,0
+                -117.1081318,32.7553394,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Short Crossing Time</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1084389,32.7550428,0
+            -117.1081439,32.7550394,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cycle Track</name>
+        <description>Asset</description>
+        <styleUrl>#line-0F9D58-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1081305,32.7549921,0
+            -117.1081278,32.7546187,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No Crossing</name>
+        <description>Pedestrian Network Gap</description>
+        <styleUrl>#line-FF5252-8556</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1050473,32.7552695,0
+            -117.1050473,32.7550327,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pedestrian Refuge Island</name>
+        <description>Asset</description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1081618,32.7551799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pedestrian Refuge Island</name>
+        <description>Asset</description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1082932,32.755005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1059812,32.7550742,0
+            -117.1051618,32.7550651,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1052234,32.7552637,0
+            -117.106008,32.7552715,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1065391,32.7550776,0
+            -117.1062923,32.7550742,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bus Only Lane</name>
+        <description>Bus Only Lane</description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1063138,32.7552772,0
+            -117.1070903,32.7552794,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shade</name>
+        <description>Tree Cover</description>
+        <styleUrl>#icon-1886-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.105835,32.7550039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shade</name>
+        <description>Tree Cover</description>
+        <styleUrl>#icon-1886-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1011089,32.7531226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cracked Sidewalk</name>
+        <description>Obstruction</description>
+        <styleUrl>#icon-1541-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1053361,32.7550175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

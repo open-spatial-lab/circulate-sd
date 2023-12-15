@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pt. 2 of Walk N Roll #11</name>
+    <description/>
+    <Style id="icon-1731-673AB7-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1731-673AB7-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1731-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1731-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1731-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1833-880E4F-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1833-880E4F-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1833-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1833-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1833-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-2550-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2.55</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-2550-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>3.825</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-2550-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-2550-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-2550-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-817717-8730-nodesc-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>8.73</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-817717-8730-nodesc-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>13.095</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-817717-8730-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-817717-8730-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-817717-8730-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Walking Route</name>
+      <Placemark>
+        <name>University Avenue</name>
+        <styleUrl>#line-000000-2550-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.138752,32.7502693,0
+            -117.1387306,32.7484149,0
+            -117.1251921,32.7484431,0
+            -117.1251747,32.7503278,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Observations</name>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1260594,32.7484171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.127186,32.7484217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1292566,32.7484307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1336481,32.7484512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1346727,32.7484558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1352346,32.7484851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1387313,32.7503562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1388224,32.748462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1254612,32.7484308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1274219,32.748424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1330153,32.7484291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.135112,32.7484284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.135869,32.7484271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1371135,32.7484226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1376071,32.7484158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1383339,32.7484136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1387255,32.7485941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1252604,32.7496003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1252443,32.7488356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1251065,32.7485206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sidewalk Obstruction</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1310801,32.7484009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sidewalk Obstruction</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.13643,32.7484163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sidewalk Obstruction</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1277248,32.7484219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sidewalk Obstruction</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1387426,32.7488702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wide Sidewalk</name>
+        <styleUrl>#line-817717-8730-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1264018,32.7484429,0
+            -117.1266915,32.748444,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wide Sidewalk</name>
+        <styleUrl>#line-817717-8730-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.1251928,32.7487407,0
+            -117.1251928,32.748576,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sidewalk Obstruction</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1353776,32.7485073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faded/Missing Crosswalks</name>
+        <styleUrl>#icon-1833-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1307294,32.7484374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken/Narrow Sidewalks</name>
+        <styleUrl>#icon-1731-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1388692,32.749645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
