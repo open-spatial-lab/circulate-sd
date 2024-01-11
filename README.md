@@ -12,7 +12,7 @@ Based at the University of Chicago Data Science Institute, the Open Spatial Lab 
 
 **Project**: OSL worked with Circulate San Diego to develop an interactive mapping and data platform that integrates CSD’s community infrastructure and safety audit data with the City of San Diego’s 311 data and demographic information at multiple spatial scales. Circulate San Diego will use this tool to identify insights into where safety or infrastructures issues have persisted over time and which communities are most impacted to advocate for policy changes. 
 
-## Repo Structure
+## Repo & Data
 
 This repo contains raw and compressed data used in this project, devop scripts, and the github page preview file. 
 
