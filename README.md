@@ -3,7 +3,7 @@
 ## About
 
 ### OSL Data Collaboratory
-This project is part of the Open Spatial Lab's 2023 Data Collaboratory. The Collaboratory is a 6-month program OSL engages with social impact organizations to build a customized tool for data management, analysis, sharing, and visualization. Circulate San Diego’s organizational engagement and feedback directly informed this work. 
+This project is part of the Open Spatial Lab's 2023 Data Collaboratory. The Collaboratory is a 6-month program where OSL engages with social impact organizations to build a customized tool for data management, analysis, communication, and visualization. Circulate San Diego’s organizational engagement and feedback directly informs this work. 
 
 ### Project Scope
 **About**: Circulate San Diego works to create excellent mobility choices and vibrant, healthy neighborhoods in the San Diego region. They have promoted public transit, safe streets, and sustainable growth since their founding in 2014. 
